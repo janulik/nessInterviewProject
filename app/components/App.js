@@ -28,13 +28,13 @@ class Counter extends React.Component {
 
     incrementCount() {
         this.setState({
-            count: this.state.count + 1
+            count: this.state.count + 5
         });
     }
     ;
             decrementCount() {
         this.setState({
-            count: this.state.count - 1
+            count: this.state.count - 4
         });
     }
     ;
